@@ -5,7 +5,7 @@ const arr = str.split('')
 console.log(arr);
 // .slice(inex, deliteCount, el1, el2, ... ,elN) 
 //        start, delit Nel     insirt el
-arr.splice(1, 3, 'E', 'L', 'L', '$')
+arr.splice(1, 3, '$', '$', '$', '$')
 const arr1 = arr.slice() // copy array
 
 console.log(arr1);
