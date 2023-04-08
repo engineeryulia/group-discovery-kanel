@@ -19,3 +19,8 @@ arr.forEach(function (el) {
 //пройдись по елементам массива и выведи мне четные индексы иначе пустоту
 arr.forEach((el, i) => i % 2 == 0 ? console.log(-el): console.log (" "))
 arr.forEach(el => console.log(el ** 3))
+
+//ничего не возвращает
+const newArr = [];
+arr.forEach(el => el > 3 ? newArr.push(el) : console.log(el));
+console.log(newArr);

@@ -32,3 +32,7 @@ const arr5 = Array.from({length: (finish - start) / step + 1}, (_, i) => start +
 // const arr6 = Array.of(10, 15, 34, 'Anna', null, NaN)
 // console.log(arr6);
 //[ 10, 15, 34, 'Anna', null, NaN ]
+
+console.log(
+  Array.of(2, 3, 4, 5, 78, 9).map((el, idx, massiv) => idx % 2 == 0 ? massiv.reduce((sum, el) => sum + el, 0) - item : '')
+);
